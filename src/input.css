@@ -21,3 +21,31 @@
         flex-direction: column;
     }
 }
+
+.section2{
+    background-image: url(https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    filter: brightness(80%);
+}
+.span1{
+    background: linear-gradient(120deg, #e4a0a1, #e4a0a1);
+    background-position: 0 80%;
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+}
+.div-text{
+    position: absolute;
+    margin-top: -25rem;
+    margin-left: 7% !important;
+}
+
+@media screen and (max-width: 640px) {
+    .div-text{
+        margin-top: -22rem;
+        margin-left: 3% !important;
+    }
+}
