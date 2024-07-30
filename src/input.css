@@ -42,10 +42,30 @@
     margin-top: -25rem;
     margin-left: 7% !important;
 }
+.font-family{
+    font-family: "Satisfy", cursive;
+    font-size: 3rem;
+    color: #a30000;
+    background: linear-gradient(120deg, #fff3cd, #fff3cd);
+    background-position: 0 80%;
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+}
+
+.custom-width-div{
+    max-width: 1250px !important;
+}
+
 
 @media screen and (max-width: 640px) {
     .div-text{
         margin-top: -22rem;
         margin-left: 3% !important;
+    }
+}
+@media screen and (max-width: 790px) {
+    div img{
+        width: 97% !important;
+        /* margin-left: 5px !important; */
     }
 }
