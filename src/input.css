@@ -53,7 +53,8 @@
 }
 
 .custom-width-div{
-    max-width: 1250px !important;
+    max-width: 1180px !important;
+    margin-left: 1.4rem;
 }
 
 .pricing{
@@ -61,15 +62,38 @@
     margin-top: 20px !important;
 }
 
+
+/* Image-hover */
+.div-img{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+.div-main:hover .div-img{
+    transform: scale(1);
+}
+.div-sub{
+    opacity: 0;
+    color: white;
+    transition: all 1s;
+
+}
+.div-main:hover .div-sub{
+    opacity: 1;
+    background: rgb(0, 0, 0, 0.448);
+}
 @media screen and (max-width: 640px) {
     .div-text{
         margin-top: -22rem;
         margin-left: 3% !important;
     }
 }
-@media screen and (max-width: 790px) {
-    div img{
+/* @media screen and (max-width: 790px) {
+    .div-main{
         width: 97% !important;
-        /* margin-left: 5px !important; */
     }
-}
+} */
+ @media screen and (max-width: 790px) {
+    .div-main{
+        width: 15rem;
+    }
+ }
